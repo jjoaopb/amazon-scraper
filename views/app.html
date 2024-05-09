@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <title>Amazon Scraper</title>
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+    <body>
+        <header>
+            <center><h1>Amazon Scraper<ing/h1></center>
+        </header>
+    <center>
+        <div>
+            <form action="" onsubmit="return false">
+                <label for="keyword">Keyword for scraping:</label>
+                <input type="text" maxlength="50" name="keyword" id="keyword" required>
+                <!-- USING THE BUTTON TO SEND THE KEYWORD IN INPUT TO THE getResult() function -->
+                <button onclick="getResult(keyword.value)">Search</button>
+            </form>
+        </div>
+        <h2 class="result-header">Results:</h2>
+        <table id="result-table">
+        </table>
+    </center>
+    </body>
+    <script type="text/javascript" src="/js/getResult.js"></script>
+</html>
