@@ -11,4 +11,4 @@ node app.js
 
 ## Usage
 
-The program runs on [http://localhost:3000/api](http://localhost:3000/api).
+The program runs in [http://localhost:3000/api](http://localhost:3000/api).
